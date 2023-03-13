@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-scroll";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import homepage from "./assets/images/homepage.png";
 import logo from "./assets/images/logo.png";
 import bulan from "./assets/images/bulan.png";
@@ -38,7 +38,7 @@ const App = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 500
+      duration: 500,
     });
     AOS.refresh();
     const intervalId = setInterval(() => {
@@ -105,14 +105,20 @@ const App = () => {
       <div className="bg-cover" style={{ backgroundImage: `url(${section2})` }}>
         <div className="h-screen px-[37px]">
           <div className="pt-[360px]">
-            <p data-aos="fade-up" className="text-white font-serat font-bold text-center text-lg pl-4 lg:text-3xl">
+            <p
+              data-aos="fade-up"
+              className="text-white font-serat font-bold text-center text-lg pl-4 lg:text-3xl"
+            >
               {" "}
               Altansa terinspirasi dari kata yang berasal dari bahasa Arab yaitu
               la-tansa yang berarti ‘jangan lupa’, dengan harapan adanya acara
               ini bisa menjadi sarana kita menjalin silahturahmi satu sama lain
               agar tidak saling melupakan.
             </p>
-            <h1 data-aos="fade-up" className="lg:text-5xl text-white font-serat text-2xl font-bold text-center mt-6">
+            <h1
+              data-aos="fade-up"
+              className="lg:text-5xl text-white font-serat text-2xl font-bold text-center mt-6"
+            >
               -MPK 45
             </h1>
           </div>
@@ -125,22 +131,48 @@ const App = () => {
       >
         <div className="h-screen font-serat">
           <div className="flex items-center w-[350px] lg:w-[450px] mx-auto text-white justify-center pt-52">
-            <h1 data-aos="fade-right" className="text-lg text-center font-bold lg:text-3xl">9 April 2023</h1>
+            <h1
+              data-aos="fade-right"
+              className="text-lg text-center font-bold lg:text-3xl"
+            >
+              9 April 2023
+            </h1>
             <div className="w-[5px] h-16 bg-white rounded-md mx-3"></div>
             <div>
-              <h1 data-aos="fade-left" className="text-lg text-center font-bold lg:text-3xl">16.00 - 19.00</h1>
-              <p data-aos="fade-up" className="text-lg font-bold text-center lg:text-3xl">WIB</p>
+              <h1
+                data-aos="fade-left"
+                className="text-lg text-center font-bold lg:text-3xl"
+              >
+                16.00 - 19.00
+              </h1>
+              <p
+                data-aos="fade-up"
+                className="text-lg font-bold text-center lg:text-3xl"
+              >
+                WIB
+              </p>
             </div>
           </div>
           <div className="mt-6">
-            <h1 data-aos="zoom-in" className="text-center text-white font-bold text-lg lg:text-3xl">
+            <h1
+              data-aos="zoom-in"
+              className="text-center text-white font-bold text-lg lg:text-3xl"
+            >
               Wingz O Wingz
             </h1>
-            <p data-aos="zoom-in" className="w-[350px] my-4 mx-auto text-center text-white font-bold text-lg lg:text-3xl">
+            <p
+              data-aos="zoom-in"
+              className="w-[350px] my-4 mx-auto text-center text-white font-bold text-lg lg:text-3xl"
+            >
               Jl. Supratman No.45a, Cihapit, Kec. Bandung Wetan, Kota Bandung,
               Jawa Barat 40114
             </p>
-            <img data-aos="fade-down" src={map} alt="map" className="mx-auto lg:w-96" />
+            <img
+              data-aos="fade-down"
+              src={map}
+              alt="map"
+              className="mx-auto lg:w-96"
+            />
             <a
               data-aos="fade-up"
               href="https://goo.gl/maps/ELisLfy8sNJrRhDs7"
@@ -159,27 +191,53 @@ const App = () => {
       >
         <div className="h-screen text-white">
           <div className="font-crimsonPro pt-[350px]">
-            <h1 data-aos="fade-down" className="text-3xl w-[190px] lg:w-auto mx-auto text-center font-bold lg:text-6xl">
+            <h1
+              data-aos="fade-down"
+              className="text-3xl w-[190px] lg:w-auto mx-auto text-center font-bold lg:text-6xl"
+            >
               Acara akan diselenggarakan
             </h1>
             <div className="flex justify-center items-start my-4">
               <h1 data-aos="zoom-in" className="text-6xl font-bold text-center">
                 {remainingTime.days}
               </h1>
-              <p data-aos="zoom-in" className="text-2xl ml-1 font-bold">Hari</p>
+              <p data-aos="zoom-in" className="text-2xl ml-1 font-bold">
+                Hari
+              </p>
             </div>
             <div className="flex justify-center space-x-16 text-center">
               <div>
-                <h1 data-aos="zoom-in" className="text-6xl font-bold">{remainingTime.hours}</h1>
-                <h1 data-aos="zoom-in" className="text-xl font-bold lg:text-5xl">Jam</h1>
+                <h1 data-aos="zoom-in" className="text-6xl font-bold">
+                  {remainingTime.hours}
+                </h1>
+                <h1
+                  data-aos="zoom-in"
+                  className="text-xl font-bold lg:text-5xl"
+                >
+                  Jam
+                </h1>
               </div>
               <div>
-                <h1 data-aos="zoom-in" className="text-6xl font-bold">{remainingTime.minutes}</h1>
-                <h1 data-aos="zoom-in" className="text-xl font-bold lg:text-5xl">Menit</h1>
+                <h1 data-aos="zoom-in" className="text-6xl font-bold">
+                  {remainingTime.minutes}
+                </h1>
+                <h1
+                  data-aos="zoom-in"
+                  className="text-xl font-bold lg:text-5xl"
+                >
+                  Menit
+                </h1>
               </div>
               <div>
-                <h1 data-aos="zoom-in" className="text-6xl font-bold">{remainingTime.seconds}</h1>
-                <h1 data-aos="zoom-in" className="text-xl font-bold lg:text-5xl">Detik</h1>
+                <h1 data-aos="zoom-in" className="text-6xl font-bold">
+                  {remainingTime.seconds}
+                </h1>
+                <h1
+                  data-aos="zoom-in"
+                  className="text-xl font-bold lg:text-5xl"
+                >
+                  Detik
+                </h1>
               </div>
             </div>
           </div>
@@ -192,11 +250,14 @@ const App = () => {
       >
         <div className="h-screen text-white font-crimsonPro">
           <div className="pt-96">
-            <h1 data-aos="fade-down" className="text-3xl w-[200px] mx-auto lg:text-6xl lg:w-auto lg:px-10 text-center font-bold">
+            <h1
+              data-aos="fade-down"
+              className="text-3xl w-[200px] mx-auto lg:text-6xl lg:w-auto lg:px-10 text-center font-bold"
+            >
               Pengisian data kehadiran
             </h1>
             <a
-data-aos="fade-up"
+              data-aos="fade-up"
               href="https://forms.gle/okZpkdFsxbXpD5B16"
               className="font-bold block w-[150px] mx-auto rounded-[25px] lg:w-[250px] lg:text-5xl lg:py-3 lg:mt-10 py-1 text-2xl mt-4 shadow-md text-center bg-biruTeuing"
             >
@@ -208,18 +269,39 @@ data-aos="fade-up"
       <div className="bg-cover" style={{ backgroundImage: `url(${section6})` }}>
         <div className="h-screen">
           <div className="pt-80">
-            <h1 data-aos="fade-down" className="text-4xl font-bold text-white text-center w-[200px] mx-auto mb-8 lg:text-6xl">
+            <h1
+              data-aos="fade-down"
+              className="text-4xl font-bold text-white text-center w-[200px] mx-auto mb-8 lg:text-6xl"
+            >
               Contact Person
             </h1>
             <div className="flex justify-center space-x-6">
               <a href="">
-                <img data-aos="fade-right" src={ig} alt="" width={70} className="lg:w-32"/>
+                <img
+                  data-aos="fade-right"
+                  src={ig}
+                  alt=""
+                  width={70}
+                  className="lg:w-32"
+                />
               </a>
               <a href="">
-                <img data-aos="zoom-in" src={wa} alt="" width={70} className="lg:w-32"/>
+                <img
+                  data-aos="zoom-in"
+                  src={wa}
+                  alt=""
+                  width={70}
+                  className="lg:w-32"
+                />
               </a>
               <a href="">
-                <img data-aos="fade-left" src={line} alt="" width={70} className="lg:w-32"/>
+                <img
+                  data-aos="fade-left"
+                  src={line}
+                  alt=""
+                  width={70}
+                  className="lg:w-32"
+                />
               </a>
             </div>
           </div>
