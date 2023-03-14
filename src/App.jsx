@@ -167,7 +167,13 @@ const App = () => {
               Jl. Supratman No.45a, Cihapit, Kec. Bandung Wetan, Kota Bandung,
               Jawa Barat 40114
             </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.887721060297!2d107.62572411421132!3d-6.904028269483426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c85cb3be9d%3A0xa41f8a9361bebc02!2sWingz%20o%20Wingz%20-%20Supratman!5e0!3m2!1sen!2sid!4v1678804182284!5m2!1sen!2sid" className="mx-auto rounded-[25px] w-[300px] h-[230px] lg:w-[400px] lg:h-[300px]" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.887721060297!2d107.62572411421132!3d-6.904028269483426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c85cb3be9d%3A0xa41f8a9361bebc02!2sWingz%20o%20Wingz%20-%20Supratman!5e0!3m2!1sen!2sid!4v1678804182284!5m2!1sen!2sid"
+              className="mx-auto rounded-[25px] w-[300px] h-[230px] lg:w-[400px] lg:h-[300px]"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
             <a
               data-aos="fade-up"
               href="https://goo.gl/maps/ELisLfy8sNJrRhDs7"
