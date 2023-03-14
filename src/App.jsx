@@ -61,7 +61,7 @@ const App = () => {
             <h1 className="lg:text-3xl font-crimsonPro text-center text-white mt-12 font-bold text-xl">
               “The memories that we never forget”
             </h1>
-            <div className="fixed flex bg-biruGw mx-auto left-0 right-0 w-[290px] z-[1000] justify-center space-x-3 p-3 bottom-10 rounded-[30px] opacity-80">
+            <div className="fixed flex bg-biruGw mx-auto left-0 right-0 w-[290px] lg:w-[400px] z-[1000] justify-center space-x-3 p-3 bottom-10 rounded-[30px] opacity-80">
               <Link
                 to="home"
                 smooth={true}
@@ -132,7 +132,7 @@ const App = () => {
         <div className="h-screen font-serat">
           <div className="flex items-center w-[350px] lg:w-[450px] mx-auto text-white justify-center pt-52">
             <h1
-              data-aos="fade-right"
+              data-aos="zoom-in"
               className="text-lg text-center font-bold lg:text-3xl"
             >
               9 April 2023
@@ -140,7 +140,7 @@ const App = () => {
             <div className="w-[5px] h-16 bg-white rounded-md mx-3"></div>
             <div>
               <h1
-                data-aos="fade-left"
+                data-aos="zoom-in"
                 className="text-lg text-center font-bold lg:text-3xl"
               >
                 16.00 - 19.00
@@ -167,12 +167,7 @@ const App = () => {
               Jl. Supratman No.45a, Cihapit, Kec. Bandung Wetan, Kota Bandung,
               Jawa Barat 40114
             </p>
-            <img
-              data-aos="fade-down"
-              src={map}
-              alt="map"
-              className="mx-auto lg:w-96"
-            />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.887721060297!2d107.62572411421132!3d-6.904028269483426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c85cb3be9d%3A0xa41f8a9361bebc02!2sWingz%20o%20Wingz%20-%20Supratman!5e0!3m2!1sen!2sid!4v1678804182284!5m2!1sen!2sid" className="mx-auto rounded-[25px] w-[300px] h-[230px] lg:w-[400px] lg:h-[300px]" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <a
               data-aos="fade-up"
               href="https://goo.gl/maps/ELisLfy8sNJrRhDs7"
@@ -278,7 +273,7 @@ const App = () => {
             <div className="flex justify-center space-x-6">
               <a href="">
                 <img
-                  data-aos="fade-right"
+                  data-aos="zoom-in"
                   src={ig}
                   alt=""
                   width={70}
@@ -296,7 +291,7 @@ const App = () => {
               </a>
               <a href="">
                 <img
-                  data-aos="fade-left"
+                  data-aos="zoom-in"
                   src={line}
                   alt=""
                   width={70}
