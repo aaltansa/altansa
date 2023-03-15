@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/altansa/static/css/main.ef2be756.css",
-    "main.js": "/altansa/static/js/main.e26666ce.js",
+    "main.css": "/altansa/static/css/main.0152c2c8.css",
+    "main.js": "/altansa/static/js/main.361e1216.js",
     "static/media/wa.png": "/altansa/static/media/wa.22a945053aa010b80133.png",
     "static/media/section6.png": "/altansa/static/media/section6.8318a3735cb2d3deea44.png",
     "static/media/section4.png": "/altansa/static/media/section4.c07ba3e1869cc6fe66aa.png",
@@ -10,16 +10,17 @@
     "static/media/section2.png": "/altansa/static/media/section2.2fa7bc6d93efa69177b8.png",
     "static/media/section3.png": "/altansa/static/media/section3.cc1e9dee39425c95cd38.png",
     "static/media/line.png": "/altansa/static/media/line.330e018f54556bd97d12.png",
+    "static/media/backgroundweb.png": "/altansa/static/media/backgroundweb.26b22e85688b91831527.png",
     "static/media/ig.png": "/altansa/static/media/ig.3b27fd5fbba07699e86f.png",
     "static/media/bulan.png": "/altansa/static/media/bulan.f82c6b1da77cc74380f8.png",
     "static/media/map.png": "/altansa/static/media/map.f3014e38c31a9e4ec0c7.png",
     "static/media/logo.png": "/altansa/static/media/logo.ec258ddfb71f268d9ca3.png",
     "index.html": "/altansa/index.html",
-    "main.ef2be756.css.map": "/altansa/static/css/main.ef2be756.css.map",
-    "main.e26666ce.js.map": "/altansa/static/js/main.e26666ce.js.map"
+    "main.0152c2c8.css.map": "/altansa/static/css/main.0152c2c8.css.map",
+    "main.361e1216.js.map": "/altansa/static/js/main.361e1216.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef2be756.css",
-    "static/js/main.e26666ce.js"
+    "static/css/main.0152c2c8.css",
+    "static/js/main.361e1216.js"
   ]
 }
